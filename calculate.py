@@ -38,7 +38,7 @@ def main():
         print(result_message)
 
     except ValueError:
-        print("<p>Error: Input values must be numeric.</p>")
+        print("<p>Error: Input values must be numeric!.</p>")
     except Exception as e:
         print(f"<p>Error: {str(e)}</p>")
 
